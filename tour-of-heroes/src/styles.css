@@ -73,7 +73,6 @@ nav a.active {
 .spacer {
   flex: 1;
 }
-
 .toolbar {
   position: absolute;
   top: 0;
@@ -98,7 +97,6 @@ nav a.active {
   flex-direction: column;
 
 }
-
 .card svg.material-icons path {
   fill: #888;
 }
@@ -108,9 +106,6 @@ nav a.active {
 .card.card.highlight-card span {
   margin-left: 60px;
 }
-
-
-
 .circle-link {
   height: 40px;
   width: 40px;
@@ -125,24 +120,20 @@ nav a.active {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 1s ease-out;
 }
-
 .circle-link:hover {
   transform: translateY(-0.25rem);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
-
 footer {
   margin-top: 8px;
   display: flex;
   align-items: center;
   line-height: 20px;
 }
-
 footer a {
   display: flex;
   align-items: center;
 }
-
 svg#clouds {
   position: fixed;
   bottom: -160px;
