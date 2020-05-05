@@ -6,10 +6,8 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'tour-of-heroes';
+  title = 'Tour Of Heroes';
 
   ngOnInit(): void {
-    const a = 10;
-    const b = 20;
   }
 }

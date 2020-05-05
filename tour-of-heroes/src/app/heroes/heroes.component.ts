@@ -14,7 +14,7 @@ export class HeroesComponent implements OnInit {
   public selectedHero: Hero;
   constructor(private heroService: HeroService, private messageService: MessageService) {
   }
-
+// asynchronous
   public getHeroes(): void {
     this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes);
   }
@@ -24,6 +24,6 @@ export class HeroesComponent implements OnInit {
   }
   onSelect(hero: Hero) {
     this.selectedHero = hero;
-    this.messageService.add(`HeroComponent: Selected hero id = ${hero.id}`)
+    this.messageService.add(`HeroComponent: Selected hero id = ${hero.id}`);
   }
 }
